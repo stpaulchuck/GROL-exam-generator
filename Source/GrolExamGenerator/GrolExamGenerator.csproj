@@ -1,0 +1,150 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{3976FBAF-341A-4614-853C-95554F9DC9E1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>GrolExamGenerator</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>GrolExamGenerator</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsGROLExamPrinter.cs" />
+    <Compile Include="clsGROLSelectionChoiceEvent.cs" />
+    <Compile Include="clsGROLSQLiteHandler.cs" />
+    <Compile Include="clsQuestionInfo.cs" />
+    <Compile Include="dlgGROLDBchooser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgGROLDBchooser.Designer.cs">
+      <DependentUpon>dlgGROLDBchooser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGROLElectronicExam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGROLElectronicExam.Designer.cs">
+      <DependentUpon>frmGROLElectronicExam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGROLGenMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGROLGenMain.Designer.cs">
+      <DependentUpon>frmGROLGenMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGROLOutputFileName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGROLOutputFileName.Designer.cs">
+      <DependentUpon>frmGROLOutputFileName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGROLTestResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGROLTestResults.Designer.cs">
+      <DependentUpon>frmGROLTestResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="Properties\Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ucTestQuestionHolder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucTestQuestionHolder.Designer.cs">
+      <DependentUpon>ucTestQuestionHolder.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="dlgGROLDBchooser.resx">
+      <DependentUpon>dlgGROLDBchooser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGROLElectronicExam.resx">
+      <DependentUpon>frmGROLElectronicExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGROLGenMain.resx">
+      <DependentUpon>frmGROLGenMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGROLOutputFileName.resx">
+      <DependentUpon>frmGROLOutputFileName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGROLTestResults.resx">
+      <DependentUpon>frmGROLTestResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="ucTestQuestionHolder.resx">
+      <DependentUpon>ucTestQuestionHolder.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PAGE10.ICO" />
+    <Content Include="PENCIL.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\GrolExamGenerator\v15\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SQLite">
+      <Version>3.13.0</Version>
+    </PackageReference>
+    <PackageReference Include="System.Data.SQLite">
+      <Version>1.0.110</Version>
+    </PackageReference>
+    <PackageReference Include="System.Data.SQLite.Core">
+      <Version>1.0.110</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

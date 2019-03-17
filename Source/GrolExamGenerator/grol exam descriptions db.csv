@@ -1,0 +1,355 @@
+ElementNumber//SubElementName//KeyTopic//DescriptiveText
+1//A//0//Rules & Regulations:  6 Key Topics, 6 Exam Questions
+1//A//1//Equipment Requirements
+1//A//2//License Requirements
+1//A//3//Watchkeeping
+1//A//4//Logkeeping
+1//A//5//Log Entries
+1//A//6//Miscellaneous Rules & Regulations
+1//B//0//Communications Procedures:  6 Key Topics, 6 Exam Questions
+1//B//7//Bridge-to-Bridge Operations
+1//B//8//Operating Procedures-1
+1//B//9//Operating Procedures-2
+1//B//10//Distress Communications
+1//B//11//Urgency and Safety Communications
+1//B//12//GMDSS
+1//C//0//Equipment Operations:  6 Key Topics, 6 Exam Questions
+1//C//13//VHF Equipment Controls
+1//C//14//VHF Channel Selection
+1//C//15//MF-HF Equipment Controls
+1//C//16//MF-HF Frequency & Emission Selection
+1//C//17//Equipment Tests
+1//C//18//Equipment Faults
+1//D//0//Other Equipment:  6 Key Topics, 6 Exam Questions
+1//D//19//Antennas
+1//D//20//Power Sources
+1//D//21//EPIRBs
+1//D//22//SARTs
+1//D//23//Survival Craft VHF
+1//D//24//NAVTEX
+3//A//0//Principles:  8 Key Topics, 8 Exam Questions
+3//A//1//Electrical Elements
+3//A//2//Magnetism
+3//A//3//Materials
+3//A//4//Resistance, Capacitance & Inductance
+3//A//5//Semi-conductors
+3//A//6//Electrical Measurements
+3//A//7//Waveforms
+3//A//8//Conduction
+3//B//0//Electrical Math:  10 Key Topics, 10 Exam Questions, 3 Drawings
+3//B//9//Ohm-s Law-1
+3//B//10//Ohm-s Law-2
+3//B//11//Frequency
+3//B//12//Waveforms
+3//B//13//Power Relationships
+3//B//14//RC Time Constants-1
+3//B//15//RC Time Constants-2
+3//B//16//Impedance Networks-1
+3//B//17//Impedance Networks-2
+3//B//18//Calculations
+3//C//0//Components:  10 Key Topics, 10 Exam Questions, 2 Drawings
+3//C//19//Photoconductive Devices
+3//C//20//Capacitors
+3//C//21//Transformers
+3//C//22//Voltage Regulators, Zener Diodes
+3//C//23//SCRs, Triacs
+3//C//24//Diodes
+3//C//25//Transistors-1
+3//C//26//Transistors-2
+3//C//27//Light Emitting Diodes
+3//C//28//Devices
+3//D//0//Circuits: 4 Key Topics, 4 Exam Questions, 6 Drawings
+3//D//29//R-L-C Circuits
+3//D//30//Op Amps
+3//D//31//Phase Locked Loops (PLLs); Voltage Controlled Oscillators (VCOs); Mixers
+3//D//32//Schematics
+3//E//0//Digital Logic:  8 Key Topics, 8 Exam Questions, 3 Drawings
+3//E//33//Types of Logic
+3//E//34//Logic Gates
+3//E//35//Logic Levels
+3//E//36//Flip-Flops
+3//E//37//Multivibrators
+3//E//38//Memory
+3//E//39//Microprocessors
+3//E//40//Counters, Dividers, Converters
+3//F//0//Receivers:  10 Key Topics, 10 Exam Questions, 2 Drawings
+3//F//41//Receiver Theory
+3//F//42//RF Amplifiers
+3//F//43//Oscillators
+3//F//44//Mixers
+3//F//45//IF Amplifiers
+3//F//46//Filters and IF Amplifiers
+3//F//47//Filters
+3//F//48//Detectors
+3//F//49//Audio & Squelch Circuits
+3//F//50//Receiver Performance
+3//G//0//Transmitters:  6 Key Topics, 6 Exam Questions
+3//G//51//Amplifiers-1
+3//G//52//Amplifiers-2
+3//G//53//Oscillators & Modulators
+3//G//54//Resonance - Tuning Networks
+3//G//55//SSB Transmitters
+3//G//56//Technology
+3//H//0//Modulation:  3 Key Topics, 3 Exam Questions, 1 Drawing
+3//H//57//Frequency Modulation
+3//H//58//SSB Modulation
+3//H//59//Pulse Modulation
+3//I//0//Power Sources:  3 Key Topics, 3 Exam Questions
+3//I//60//Batteries-1
+3//I//61//Batteries-2
+3//I//62//Motors & Generators
+3//J//0//Antennas:  5 Key Topics, 5 Exam Questions
+3//J//63//Antenna Theory
+3//J//64//Voltage, Current and Power Relationships
+3//J//65//Frequency and Bandwidth
+3//J//66//Transmission Lines
+3//J//67//Effective Radiated Power
+3//K//0//Aircraft:  6 Key Topics, 6 Exam Questions
+3//K//68//Distance Measuring Equipment
+3//K//69//VHF Omnidirectional Range (VOR)
+3//K//70//Instrument Landing System (ILS)
+3//K//71//Automatic Direction Finding Equipment (ADF) & Transponders
+3//K//72//Aircraft Antenna Systems and Frequencies
+3//K//73//Equipment Functions
+3//L//0//Installation, Maintenance & Repair:  8 Key Topics, 8 Exam Questions
+3//L//74//Indicating Meters
+3//L//75//Test Equipment
+3//L//76//Oscilloscopes
+3//L//77//Specialized Instruments
+3//L//78//Measurement Procedures
+3//L//79//Repair Procedures
+3//L//80//Installation Codes & Procedures
+3//L//81//Troubleshooting
+3//M//0//Communications Technology:  3 Key Topics, 3 Exam Questions
+3//M//82//Types of Transmissions
+3//M//83//Coding and Multiplexing
+3//M//84//Signal Processing, Software and Codes
+3//N//0//Marine:  5 Key Topics, 5 Exam Questions
+3//N//85//VHF
+3//N//86//MF-HF, SSB-SITOR
+3//N//87//Survival Craft Equipment: VHF, SARTs & EPIRBs
+3//N//88//FAX, NAVTEX
+3//N//89//NMEA Data
+3//O//0//RADAR: 5 Key Topics, 5 Exam Questions
+3//O//90//RADAR Theory
+3//O//91//Components
+3//O//92//Range, Pulse Width & Repetition Rate
+3//O//93//Antennas & Waveguides
+3//O//94//RADAR Equipment
+3//P//0//Satellite:  4 Key Topics, 4 Exam Questions
+3//P//95//Low Earth Orbit Systems
+3//P//96//INMARSAT Communications Systems-1
+3//P//97//INMARSAT Communications Systems-2
+3//P//98//GPS
+3//Q//0//SAFETY:  2 Key Topics, 2 Exam Questions
+3//Q//99//Radiation Exposure
+3//Q//100//Safety Steps
+6//A//0//GENERAL - [100 EXAM QUESTIONS]
+7//A//0//General Information and System Overview
+7//A//1//Fundamental Concepts
+7//A//2//Equipment Systems
+7//A//3//Sea Areas
+7//A//4//Functional Requirements
+7//A//5//Carriage Requirements
+7//A//6//Maintenance Options
+7//A//7//Radio Spectrum
+7//A//8//Frequency Bands
+7//A//9//Modulation, Demodulation, AM, FM
+7//A//10//Carrier and Sidebands
+7//A//11//Channel Spacing
+7//A//12//Antennas
+7//A//13//Inspections and Exemptions
+7//A//14//Required Documents and Publications
+7//A//15//Maintenance
+7//A//16//License and Personnel Requirements
+7//A//17//Reserve Source of Energy
+7//A//18//Equipment Testing
+7//A//19//Watchkeeping
+7//A//20//Logkeeping
+7//A//21//Call Signs and SELCALs
+7//A//22//MMSI- MID and Ship Station I.D. Numbers
+7//A//23//MMSI; Group and Coast Station I.D. Numbers
+7//A//24//Inmarsat Mobile Numbers for B & F-77 Terminals
+7//A//25//Inmarsat Mobile Numbers for -C- Terminals
+7//A//26//DSC Format and Info Sent
+7//A//27//DSC Operations
+7//A//28//DSC Frequencies
+7//A//29//Sending a Distress Alert
+7//A//30//Follow-On Voice Transmission
+7//A//31//Response to a Distress Alert
+7//A//32//Distress Relays
+7//A//33//Action-False Distress Alert
+7//A//34//Radio Silence - Resume Traffic
+7//A//35//Urgency Traffic
+7//A//36//Safety Traffic
+7//A//37//Frequencies
+7//A//38//Other Procedures
+7//A//39//SART- Activation and Survival Craft Operation
+7//A//40//SART - Radar Display - SAR - AIS SART
+7//A//41//SART : Testing and Battery Parameters
+7//A//42//EPIRB System Structure and Operation
+7//A//43//EPIRB Alerting and Features
+7//A//44//Homing and Locating Signals
+7//A//45//Survival Craft Transceivers
+7//A//46//On Scene Communications
+7//A//47//SAR-MCC-RCC : Systems & Procedures-1
+7//A//48//SAR-MCC-RCC : Systems & Procedures-2
+7//A//49//VHF Controls, Power and Range
+7//A//50//VHF Channel System
+7//A//51//Navtex-1 : Operations
+7//A//52//Navtex-2 : Programming
+7//A//53//Navtex-3 : Message Format
+7//A//54//SafetyNETTM -1 : Operations
+7//A//55//SafetyNETTM -2 : Information
+7//A//56//Enhanced Group Calling (EGC)
+7//A//57//H.F. MSI
+7//A//58//NAVAREAs
+7//A//59//Sat-C, Power up, Self-Test, Controls & Lamps
+7//A//60//Selecting an Inmarsat Ocean Region
+7//A//61//Inmarsat Log-in & Log-out
+7//A//62//Inmarsat General System Operations-1
+7//A//63//Inmarsat General System Operations-2
+7//A//64//Inmarsat-B or F77 Equipment and Operations
+7//A//65//Inmarsat-C : Equipment and Operations-1
+7//A//66//Inmarsat-C : Equipment and Operations-2
+7//A//67//Compare and Differentiate -B- and -C- Terminals
+7//A//68//Selecting L.E.S. and L.E.S. ID Numbers
+7//A//69//Inmarsat-B and F77- Address, Dialing and Voice
+7//A//70//Inmarsat-B - Address, Dialing and Telex
+7//A//71//Inmarsat-C Address to Ship Telex
+7//A//72//Address to Land Telex Terminal
+7//A//73//Address to a FAX Terminal
+7//A//74//Address to Internet, SMS or Special Addresses
+7//A//75//Inmarsat Distress Communications
+7//A//76//Satellite SAR-MCC-RCC
+7//A//77//EGC
+7//A//78//Equipment Faults and Maintenance-1
+7//A//79//Equipment Faults and Maintenance-2
+7//A//80//MF-HF Panel Controls
+7//A//81//MF-HF Frequency-Simplex, Duplex, Half-Duplex
+7//A//82//MF-HF ITU Channels
+7//A//83//MF-HF Voice and Telex Channel Separation
+7//A//84//MF-HF Modulation, Bandwidth and Emissions
+7//A//85//MF-HF Voice Operations-Calling a Coast Station
+7//A//86//MF-HF DSC Controller Call Programming
+7//A//87//MF-HF SITOR (NBDP) - Definitions
+7//A//88//MF-HF SITOR (NBDP) Technical Characteristics
+7//A//89//MF-HF ARQ Operation - Calling a Coast Station
+7//A//90//MF-HF ARQ Operation - Answerbacks
+7//A//91//MF-HF ARQ Operation - OP Codes & Procedures
+7//A//92//MF-HF ARQ Operation-Technical Characteristics
+7//A//93//MF-HF Addressing Modes
+7//A//94//MF-HF FEC Operation-1
+7//A//95//MF-HF FEC Operation-2
+7//A//96//MF-HF Propagation-1; Day-Night-Winter-Summer
+7//A//97//MF-HF Propagation-2; Day-Night-Winter-Summer
+7//A//98//MF-HF DSC Controller Alert/Call Response
+7//A//99//Batteries
+7//A//100//MF-HF Equipment Faults and Testing
+8//A//0//RADAR Principles - 10 Key Topics - 10 Exam Questions - 8 Drawings
+8//A//1//Marine RADAR Systems
+8//A//2//Distance and Time
+8//A//3//Frequency and Wavelength
+8//A//4//Power, Pulse Width, PRR
+8//A//5//Range, Pulse Width, PRF
+8//A//6//Pulse Width - Pulse Repetition Rates
+8//A//7//Components-1
+8//A//8//Components-2
+8//A//9//Circuits-1
+8//A//10//Circuits-2
+8//B//0//Transmitting Systems - 8 Key Topics - 8 Exam Questions
+8//B//11//Transmitting Systems
+8//B//12//Magnetrons
+8//B//13//Modulation
+8//B//14//Pulse Forming Networks Modulation
+8//B//15//TR - ATR - Circulators - Directional Couplers-1
+8//B//16//TR - ATR - Circulators - Directional Couplers-2
+8//B//17//Timer - Trigger - Synchronizer Circuits
+8//B//18//Power Supplies
+8//C//0//Receiving Systems - 10 Key Topics - 10 Exam Questions - 4 Drawings
+8//C//19//Receiving Systems
+8//C//20//Mixers
+8//C//21//Local Oscillators
+8//C//22//Amplifiers
+8//C//23//Detectors - Video Amplifiers
+8//C//24//Automatic Frequency Control - AFC
+8//C//25//Sea Clutter - STC
+8//C//26//Power Supplies
+8//C//27//Interference Issues
+8//C//28//Miscellaneous
+8//D//0//Display & Control Systems - 10 Key Topics - 10 Exam Questions
+8//D//29//Displays
+8//D//30//Video Amplifiers and Sweep Circuits
+8//D//31//Timing Circuits
+8//D//32//Fixed Range Markers
+8//D//33//Variable Range Markers
+8//D//34//EBL, Azimuth and True Bearing
+8//D//35//Memory Systems
+8//D//36//ARPA - CAS
+8//D//37//Display System Power Supplies
+8//D//38//Miscellaneous
+8//E//0//Antenna Systems- 5 Key Topics - 5 Exam Questions
+8//E//39//Antenna Systems
+8//E//40//Transmission Lines
+8//E//41//Antenna to Display Interface
+8//E//42//Waveguides-1
+8//E//43//Waveguides-2
+8//F//0//Installation, Maintenance & Repair
+8//F//44//Equipment Faults-1
+8//F//45//Equipment Faults-2
+8//F//46//Equipment Faults-3
+8//F//47//Equipment Faults-4
+8//F//48//Maintenance
+8//F//49//Installation
+8//F//50//Safety
+9//A//0//VHF-DSC Equipment & Operation
+9//A//1//Frequency and Bandwidth
+9//A//2//Controls and Functions
+9//A//3//Receiver Technology
+9//A//4//Receiver Faults-1
+9//A//5//Receiver Faults-2
+9//A//6//Transmitter Technology
+9//A//7//Transmitter Faults-1
+9//A//8//Transmitter Faults-2
+9//A//9//Digital Selective Calling
+9//A//10//Antenna Systems
+9//A//11//Frequencies and Bandwidth
+9//A//12//Controls, Functions and Displays
+9//A//13//Receiver Technology
+9//A//14//Receiver Faults-1
+9//A//15//Receiver Faults-2
+9//A//16//Transmitter Tech
+9//A//17//Transmitter Faults-1
+9//A//18//Transmitter Faults-2
+9//A//19//DSC Operations
+9//A//20//SITOR (NBDP)-ARQ
+9//A//21//SITOR (NBDP)-FEC
+9//A//22//Antenna Systems
+9//A//23//Technology
+9//A//24//C-Terminals
+9//A//25//Long Range Identity Tracking
+9//A//26//Fleet-33-55-77 Terminals
+9//A//27//Fleet Broadband Terminals
+9//A//28//GPS
+9//A//29//Antenna Systems
+9//A//30//Equipment Faults and troubleshooting-1
+9//A//31//Equipment Faults and troubleshooting-2
+9//A//32//Equipment Faults and troubleshooting-3
+9//A//33//EPIRB
+9//A//34//SART
+9//A//35//Survival Craft Transceiver
+9//A//36//Navtex
+9//A//37//Batteries
+9//A//38//Battery Chargers and Power Sources
+9//A//39//Power Supplies-1
+9//A//40//Power Supplies-2
+9//A//41//Computers
+9//A//42//Computer Networks - Ethernet
+9//A//43//Local Area Networks- NMEA-0183
+9//A//44//Local Area Networks- NMEA-2000
+9//A//45//Depth Finders, Gyro Compass, SSAS, AIS
+9//A//46//ECDIS - Auto Pilots - Data Recorders
+9//A//47//Equipment Installation
+9//A//48//Annual Inspections
+9//A//49//Test Equipment-1
+9//A//50//Test Equipment-2
