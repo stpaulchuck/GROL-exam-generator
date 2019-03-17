@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 
 namespace GrolTestPoolParser
@@ -313,14 +314,50 @@ namespace GrolTestPoolParser
 				}
 				else
 				{
-					cmbElementNumber.Text = "1";
+					//cmbElementNumber.Text = "1";
 					Application.DoEvents();
-					MessageBox.Show(this, "Please set the Element Number to proceed.", "Input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+					//MessageBox.Show(this, "Please verify the Element Number to proceed.", "Input", MessageBoxButtons.OK,  MessageBoxIcon.Exclamation);
+
+					cmbElementNumber.Text = FindElementFromText(sDocumentText);
 					Application.DoEvents();
+
 				}
 			}
 			txtStatus.Text = "File to parse loaded. Idle...";
 			return true;
+		}
+
+		private string FindElementFromText(string InputText)
+		{
+			Match oMatch = null;
+			string sTemp = "";
+			string retVal = "0";
+			StringReader oReader = new StringReader(InputText);
+			for (int iIndexer = 0; iIndexer < 10; iIndexer++) // should be in the first ten lines
+			{
+				if (oReader.Peek() < 0)
+					return (retVal);  // number not found and end of text
+				sTemp = oReader.ReadLine();
+				oMatch = Regex.Match(sTemp, @"FCC[\w|\W]+ Element[- ]\d"); // everyone else
+				if (oMatch.Success) // got it
+				{
+					sTemp = oMatch.Value;
+					return sTemp.Substring(sTemp.Length - 1);
+				}
+				oMatch = Regex.Match(sTemp, @"FCC-El-\d"); // element 7
+				if (oMatch.Success) // got it
+				{
+					sTemp = oMatch.Value;
+					return sTemp.Substring(sTemp.Length - 1);
+				}
+				oMatch = Regex.Match(sTemp, @"SUBELEMENT 6A -* *GENERAL");  // element 6
+				if (oMatch.Success)
+				{
+					return "6";
+				}
+			}
+
+			return retVal;
 		}
 
 	}  // end class
