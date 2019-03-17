@@ -6,7 +6,7 @@ release suitable for the public.](http://www.repostatus.org/badges/latest/wip.sv
 
 ## **Introduction**
 
-I built these two applications so I could practice up for the three FCC commercial radio exam - the General Radio Operator License (the old First Class Radiotelephone License). I recently started updating them and parsed in the latest exam pools. The FCC kindly gives you documents containing every exam question. The only problem is that they never proof read them and so they are a disaster for parsing. I had to invent all sorts of tricks and workarounds to get the questions into the database for the generator to use.
+I built these two applications so I could practice up for the FCC commercial radio exam - the General Radio Operator License (the old First Class Radiotelephone License). I recently started updating them and parsed in the latest exam pools. The FCC kindly gives you documents containing every exam question. The only problem is that they never proof read them and so they are a disaster for parsing. I had to invent all sorts of tricks and workarounds to get the questions into the database for the generator to use.
 
 ## **About the projects**
 
