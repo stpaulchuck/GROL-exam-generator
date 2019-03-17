@@ -29,7 +29,7 @@ If you are not familiar with these helper apps please read up their documentatio
 
 ## License
 
-FCC Practice Exam Generator project is licensed under GNU GENERAL PUBLIC LICENSE Version 3.
+GROL Exam Generator project is licensed under GNU GENERAL PUBLIC LICENSE Version 3.
 
 ## Contribution
 
