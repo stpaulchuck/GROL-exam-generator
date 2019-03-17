@@ -1,6 +1,6 @@
 # GROL exam generator
 
-[![Project Status](http://www.repostatus.org/badges/latest/inactive.svg)](https://https://www.repostatus.org/#inactive)
+[![Project Status](http://www.repostatus.org/badges/latest/inactive.svg)](https://http://www.repostatus.org/#inactive)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://www.tidyverse.org/lifecycle/#stable)
 
 ## **Introduction**
