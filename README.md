@@ -1,7 +1,6 @@
 # GROL exam generator
 
-![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively
-developed; support/maintenance will be provided as time allows.](http://www.repostatus.org/badges/latest/inactive.svg)
+[![Project Status](http://www.repostatus.org/badges/latest/inactive.svg)](https://https://www.repostatus.org/#inactive)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://www.tidyverse.org/lifecycle/#stable)
 
 ## **Introduction**
